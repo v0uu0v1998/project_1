@@ -1,0 +1,165 @@
+@charset "utf-8"
+/* ----------------- *\
+        Content
+\* ----------------- */
+/*
+ * Content ......... You are reading it!
+ * Global ......... Set common styles
+ * Layout ......... Set grid styles
+ * Component ......... Set component styles
+ */
+
+/* ----------------- *\
+        Global
+\* ----------------- */
+*{
+    box-sizing: border-box;
+    position: relative;
+}
+html,body{
+    font-family: '微軟正黑體',arial;
+    height: 1024px;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+/* ----------------- *\
+        Layout
+\* ----------------- */
+.wrapper {
+    width: 1440px;
+    height: 1024px;
+    background-color: rgba(0,0,0,0.8);
+    margin: 0 auto;
+}
+.container{
+    /* border: 2px solid #000; */
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.row-1{
+    /* border: 2px solid red; */
+    display: inline-block;
+    vertical-align: top;
+    height: 1024px;
+    width: 500px;
+}
+.row-2{
+    /* border: 2px solid red; */
+    display: inline-block;
+    vertical-align: top;
+    height: 1024px;
+    width: 920px;
+}
+
+/* ----------------- *\
+        Component
+\* ----------------- */
+.navbar{
+    /* border: 2px solid #000; */
+    display: block;
+    max-width: 717px;
+    max-height: 115px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.image-container{
+    /* border: 5px solid black; */
+    display: block;
+    width: 479px;
+    height: 455px;
+    margin-top: 200px;
+    margin-left: 64px;
+    background-image: url('../images/調味料2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.label{
+    /* border: 2px solid yellow; */
+    display: block;
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
+    max-width: 263px;
+    max-height: 150px;
+    margin-top: -45px;
+    margin-left: 150px;
+    line-height: 2;
+    text-align: center;
+    font-size: 42px;
+}
+
+.title{
+    /* border: 2px solid yellowgreen; */
+    display: inline-block;
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
+    max-width: 321px;
+    max-height: 103px;
+    margin-top: 530px;
+    margin-left: 60px;
+    text-align: center;
+    font-size: 44px;
+    
+}
+
+.text1{
+    /* border: 2px solid yellowgreen; */
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
+    max-width: 399px;
+    max-height: 363px;
+    margin-top: 650px;
+    margin-left: -300px;
+    line-height: 1.5;
+    font-size: 22px;
+}
+.text2{
+    /* border: 2px solid yellowgreen; */
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
+    max-width: 399px;
+    max-height: 363px;
+    margin-top: 650px;
+    margin-left: 40px;
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+.bg-image{
+    background-image: url('../images/todd-quackenbush-x5SRhkFajrA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 1024px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.copyright{
+	background-color: rgba(0,0,0,0.8);
+	color: #ccc;
+	text-align: center;
+	line-height: 24px;
+	padding: 16px 0;
+	font-size: 14px;
+}
